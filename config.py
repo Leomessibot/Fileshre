@@ -11,8 +11,8 @@ API_HASH = os.environ.get("API_HASH", "9937930c368c669ca905e9a95aa712f0")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "7040444713"))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://me:me@kill.lrfiu.mongodb.net/?retryWrites=true&w=majority&appName=Kill")
+DB_NAME = os.environ.get("DB_NAME", "Kill")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
